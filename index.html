@@ -31,12 +31,13 @@
 		<h1><span style="color: #4682fc;">G</span><span style="color: #e5462d;">o</span><span style="color:#f9be00;">o</span><span style="color:#4682fc;">g</span><span style="color: #42aa47;">l</span><span style="color: #e5462d;">e</span></h1>
 		
 		<div>
-			<input class="searchform" type='text'>
-				<div class="buttons">
-					<input type='button1' value='Google Search' name='Google Search' class="button1">
-					<input type='button2' value='I&#39m Feeling Lucky' name='I&#39m Feeling Lucky' class="button2">
-				</div>
-
+			<form id="main-content search-form" action="#" method="GET">
+				<input class="searchform" type='text'>
+					<div class="buttons">
+						<input type='submit' value='Google Search' name='Google Search' class="button1">
+						<input type='submit' value='I&#39m Feeling Lucky' name='I&#39m Feeling Lucky' class="button2">
+					</div>
+			</form>
 		</div>
 	</div>
 
@@ -165,7 +166,7 @@ input.button1, input.button2 {
 }
 
 
-input[type="button1"], input[type="button2"] {
+input[type="submit"] {
 	background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 2px;
@@ -176,7 +177,7 @@ input[type="button1"], input[type="button2"] {
     font-weight: bold;
     margin: 11px 4px;
     min-width: 54px;
-    padding: 0;
+    padding: 0 20px;
     text-align: center;
 }
 
