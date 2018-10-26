@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Google</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+	<div class="menu">
+		<ul class="side1">
+			<li>About</li>
+			<li>Store</li>
+		</ul>
+		<ul class="side2">
+
+			<li>Gmail</li>
+			<li>Images</li>
+			<li><img class="images" src="img/gridicon.png"></li>
+			<li><img class="images bellicon" src="img/bellicon.png"></li>
+			
+		</ul>
+	</div>
+
+	<div class="google">
+		<h1><span style="color: #4682fc;">G</span><span style="color: #e5462d;">o</span><span style="color:#f9be00;">o</span><span style="color:#4682fc;">g</span><span style="color: #42aa47;">l</span><span style="color: #e5462d;">e</span></h1>
+		
+		<div>
+			<input class="searchform" type='text'>
+				<div class="buttons">
+					<input type='button1' value='Google Search' name='Google Search' class="button1">
+					<input type='button2' value='I&#39m Feeling Lucky' name='I&#39m Feeling Lucky' class="button2">
+				</div>
+
+		</div>
+	</div>
+
+
+	<div class="footer">
+		<ul class="side1">
+			<li>Advertising</li>
+			<li>Business</li>
+		</ul>
+		<ul class="side2">
+
+			<li>Privacy</li>
+			<li>Terms</li>
+			<li>Settings</li>
+			
+		</ul>
+	</div>
+
+
+<style>
+
+
+@font-face {
+	font-family: Product-Sans-Regular;
+    src: url(fonts/Product-Sans-Regular.ttf);
+}
+
+h1 {
+	font-size: 8rem;
+	margin-top: 50px;
+	letter-spacing: .1rem;
+	text-align: center;
+	margin-bottom: 20px;
+	font-family: Product-Sans-Regular, sans-serif;
+}
+
+.google {
+	display: block;
+	justify-content: center;
+}
+
+.searchform {
+	text-align: center;
+	flex: 1;
+    display: flex;
+    background: #fff;
+    display: flex;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    width: 484px;
+    height: 44px;
+    margin: 0 auto;
+    background: url(img/recording.png) no-repeat 450px 10px;
+    background-size: 24px;
+    vertical-align: middle;
+
+}
+
+
+
+li {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: rgba(0,0,0,0.87);
+}
+
+ul, menu, dir {
+	list-style-type: none;
+	display: flex;
+	padding: 0 30px;
+	justify-content: space-between;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+}
+body {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+.footer {
+	color: #5f6368;;
+	margin-top: 225px;
+	background-color: #f2f2f2;
+	bottom: 0;
+    position: absolute;
+    display: flex;
+    width: 100%;
+	align-items: flex-end;
+	justify-content: space-between;
+
+}
+
+.side1 li {
+	margin-right: 20px;
+	display: flex;
+	line-height: 24px;
+	flex-direction: row;
+}
+
+.side2 li {
+	margin-left: 20px;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+
+
+.buttons {
+	text-align: center;
+	padding-top: 18px;
+}
+
+input.button1, input.button2 {
+	border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+}
+
+
+input[type="button1"], input[type="button2"] {
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0;
+    text-align: center;
+}
+
+li:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.bellicon {
+	background-color: #e7e7e7;
+    border-radius: 50%;
+}
+
+
+.images {
+	display: flex;
+
+	width: 1.3rem;
+	height: 1.3rem;
+	justify-content: space-around;
+}
+
+</style>
+
+
+</body>
+</html>
